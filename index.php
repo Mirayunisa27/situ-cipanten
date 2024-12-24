@@ -28,6 +28,9 @@
             <a class="nav-link" href="#kuliner">KULINERAN</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="daftar.php">DAFTAR PEMESANAN </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#informasi">INFORMASI</a>
           </li>
         </ul>
@@ -163,13 +166,13 @@
                             <h5 class="card-title">Pisang Crispy</h5>
                             <p class="harga">Rp 15.000</p>
                       </div>
-                      <div class="rating rating-wrapper">
+                      <div class="rating">
                         ★★★★★
-                    </div>                    
-                      <a href="pesan.php" class="btn btn-primary">Pesan Sekarang</a>
-                  </div>
-              </div>
-          </div>
+                    </div>
+                        <a href="pesan.php" class="btn btn-primary">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
           
             <div class="col-md-3">
                 <div class="card">
@@ -207,7 +210,7 @@
                     <div class="card-body text-left">
                       <div class="title-price-wrapper">
                           <h5 class="card-title">Nasi Goreng</h5>
-                          <p class="harga">Rp 15.000</p>
+                          <p class="harga">Rp 16.000</p>
                     </div>
                     <div class="rating">
                         ★★★★★
@@ -226,7 +229,7 @@
                     <div class="card-body text-left">
                       <div class="title-price-wrapper">
                           <h5 class="card-title">Nasi Timbel</h5>
-                          <p class="harga">Rp 25.000</p>
+                          <p class="harga">Rp 26.000</p>
                     </div>
                     <div class="rating">
                         ★★★★★
@@ -241,7 +244,7 @@
                     <div class="card-body text-left">
                       <div class="title-price-wrapper">
                           <h5 class="card-title">Roti Bakar</h5>
-                          <p class="harga">Rp 15.000</p>
+                          <p class="harga">Rp 17.000</p>
                     </div>
                     <div class="rating">
                         ★★★★★
@@ -256,7 +259,7 @@
                     <div class="card-body text-left">
                       <div class="title-price-wrapper">
                           <h5 class="card-title">Jus Alpukat</h5>
-                          <p class="harga">Rp 15.000</p>
+                          <p class="harga">Rp 19.000</p>
                     </div>
                     <div class="rating">
                         ★★★★★
@@ -271,7 +274,7 @@
                     <div class="card-body text-left">
                       <div class="title-price-wrapper">
                           <h5 class="card-title">Chocolatos</h5>
-                          <p class="harga">Rp 13.000</p>
+                          <p class="harga">Rp 11.000</p>
                     </div>
                     <div class="rating">
                         ★★★★★
@@ -290,7 +293,7 @@
                     <div class="card-body text-left">
                       <div class="title-price-wrapper">
                           <h5 class="card-title">Waffle</h5>
-                          <p class="harga">Rp 20.000</p>
+                          <p class="harga">Rp 22.000</p>
                     </div>
                     <div class="rating">
                         ★★★★★
@@ -305,7 +308,7 @@
                     <div class="card-body text-left">
                       <div class="title-price-wrapper">
                           <h5 class="card-title">Jus Buah Naga</h5>
-                          <p class="harga">Rp 15.000</p>
+                          <p class="harga">Rp 13.000</p>
                     </div>
                     <div class="rating">
                         ★★★★★
@@ -320,7 +323,7 @@
                     <div class="card-body text-left">
                       <div class="title-price-wrapper">
                           <h5 class="card-title">Latte Coffe</h5>
-                          <p class="harga">Rp 15.000</p>
+                          <p class="harga">Rp 10.000</p>
                     </div>
                     <div class="rating">
                         ★★★★★
@@ -335,7 +338,7 @@
                     <div class="card-body text-left">
                       <div class="title-price-wrapper">
                           <h5 class="card-title">Flavoured Soda</h5>
-                          <p class="harga">Rp 18.000</p>
+                          <p class="harga">Rp 23.000</p>
                     </div>
                     <div class="rating">
                         ★★★★★
@@ -354,7 +357,7 @@
                     <div class="card-body text-left">
                       <div class="title-price-wrapper">
                           <h5 class="card-title">Mojito</h5>
-                          <p class="harga">Rp 18.000</p>
+                          <p class="harga">Rp 24.000</p>
                     </div>
                     <div class="rating">
                         ★★★★★
@@ -369,7 +372,7 @@
                     <div class="card-body text-left">
                       <div class="title-price-wrapper">
                           <h5 class="card-title">Cappucino</h5>
-                          <p class="harga">Rp 15.000</p>
+                          <p class="harga">Rp 21.000</p>
                     </div>
                     <div class="rating">
                         ★★★★★
@@ -384,7 +387,7 @@
                     <div class="card-body text-left">
                       <div class="title-price-wrapper">
                           <h5 class="card-title">Mocktail</h5>
-                          <p class="harga">Rp 18.000</p>
+                          <p class="harga">Rp 27.000</p>
                     </div>
                     <div class="rating">
                         ★★★★★
@@ -399,7 +402,7 @@
                     <div class="card-body text-left">
                       <div class="title-price-wrapper">
                           <h5 class="card-title">Macchiato</h5>
-                          <p class="harga">Rp 23.000</p>
+                          <p class="harga">Rp 28.000</p>
                     </div>
                     <div class="rating">
                         ★★★★★
