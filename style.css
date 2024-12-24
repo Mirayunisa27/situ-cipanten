@@ -73,6 +73,10 @@ body {
     margin-bottom: 40px;
     color: #333;
   }
+  .table-responsive table {
+    background-color: #f0f0f0; /* Warna abu-abu */
+}
+
   
   /* Cards Styling */
   .card {
