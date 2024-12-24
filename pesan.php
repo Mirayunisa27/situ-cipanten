@@ -77,7 +77,7 @@
                     <div id="destinasi-options" class="mb-3" style="display: none;">
                         <label class="form-label">Pilih Destinasi</label>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="destinasi[]" value="20000" data-nama="Wahana Karpet Ajaib" onchange="updateTotal()">
+                            <input class="form-check-input" type="checkbox"  name="destinasi[]" value="20000" data-nama="Wahana Karpet Ajaib" onchange="updateTotal()">
                             <label class="form-check-label">Wahana Karpet Ajaib (Rp.20.000,00-)</label>
                         </div>
                         <div class="form-check">
@@ -116,60 +116,60 @@
                             <label class="form-check-label">Kentang Goreng (Rp.18.000,00-)</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="15000" onchange="updateTotal()">
-                            <label class="form-check-label">Nasi Goreng (Rp.15.000,00-)</label>
+                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="16000" onchange="updateTotal()">
+                            <label class="form-check-label">Nasi Goreng (Rp.16.000,00-)</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="15000" onchange="updateTotal()">
-                            <label class="form-check-label">Jus Alpukat (Rp.15.000,00-)</label>
+                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="14000" onchange="updateTotal()">
+                            <label class="form-check-label">Jus Alpukat (Rp.14.000,00-)</label>
                         </div>
 						<div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="25000" onchange="updateTotal()">
-                            <label class="form-check-label">Nasi Timbel (Rp.25.000,00-)</label>
+                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="26000" onchange="updateTotal()">
+                            <label class="form-check-label">Nasi Timbel (Rp.26.000,00-)</label>
                         </div>
 						<div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="15000" onchange="updateTotal()">
-                            <label class="form-check-label">Roti Bakar (Rp.15.000,00-)</label>
+                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="17000" onchange="updateTotal()">
+                            <label class="form-check-label">Roti Bakar (Rp.17.000,00-)</label>
                         </div>
 						<div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="15000" onchange="updateTotal()">
-                            <label class="form-check-label">Jus Alpukat (Rp.15.000,00-)</label>
+                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="19000" onchange="updateTotal()">
+                            <label class="form-check-label">Jus Alpukat (Rp.19.000,00-)</label>
+                        </div>
+						<div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="11000" onchange="updateTotal()">
+                            <label class="form-check-label">Chocolatos (Rp.11.000,00-)</label>
+                        </div>
+						<div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="22000" onchange="updateTotal()">
+                            <label class="form-check-label">Waffle (Rp.22.000,00-)</label>
                         </div>
 						<div class="form-check">
                             <input class="form-check-input" type="checkbox" name="kulineran[]" value="13000" onchange="updateTotal()">
-                            <label class="form-check-label">Chocolatos (Rp.13.000,00-)</label>
+                            <label class="form-check-label">Jus Buah Naga (Rp.13.000,00-)</label>
                         </div>
 						<div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="20000" onchange="updateTotal()">
-                            <label class="form-check-label">Waffle (Rp.20.000,00-)</label>
-                        </div>
-						<div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="15000" onchange="updateTotal()">
-                            <label class="form-check-label">Jus Buah Naga (Rp.15.000,00-)</label>
-                        </div>
-						<div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="15000" onchange="updateTotal()">
-                            <label class="form-check-label">Latte Coffe (Rp.15.000,00-)</label>
+                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="10000" onchange="updateTotal()">
+                            <label class="form-check-label">Latte Coffe (Rp.10.000,00-)</label>
                         </div>
 						<div class="form-check">
                             <input class="form-check-input" type="checkbox" name="kulineran[]" value="18000" onchange="updateTotal()">
-                            <label class="form-check-label">Flavoured Soda (Rp.18.000,00-)</label>
+                            <label class="form-check-label">Flavoured Soda (Rp.23.000,00-)</label>
                         </div>
 						<div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="18000" onchange="updateTotal()">
-                            <label class="form-check-label">Mojito (Rp.18.000,00-)</label>
+                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="24000" onchange="updateTotal()">
+                            <label class="form-check-label">Mojito (Rp.24.000,00-)</label>
                         </div>
 						<div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="15000" onchange="updateTotal()">
-                            <label class="form-check-label">Cappucino (Rp.15.000,00-)</label>
+                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="21000" onchange="updateTotal()">
+                            <label class="form-check-label">Cappucino (Rp.21.000,00-)</label>
                         </div>
 						<div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="18000" onchange="updateTotal()">
-                            <label class="form-check-label">Mocktail (Rp.18.000,00-)</label>
+                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="27000" onchange="updateTotal()">
+                            <label class="form-check-label">Mocktail (Rp.27.000,00-)</label>
                         </div>
 						<div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="23000" onchange="updateTotal()">
-                            <label class="form-check-label">Macchiato (Rp.23.000,00-)</label>
+                            <input class="form-check-input" type="checkbox" name="kulineran[]" value="28000" onchange="updateTotal()">
+                            <label class="form-check-label">Macchiato (Rp.28.000,00-)</label>
                         </div>
                     </div>
                     <div id="seat-selection" class="mb-3" style="display: none;">
@@ -214,42 +214,46 @@
         </form>
     </div>
     <script>
-        function toggleOptions(category) {
-            const destinasiOptions = document.getElementById("destinasi-options");
-            const kulineranOptions = document.getElementById("kulineran-options");
+    function toggleOptions(category) {
+        const destinasiOptions = document.getElementById("destinasi-options");
+        const kulineranOptions = document.getElementById("kulineran-options");
 
-            if (category === "destinasi") {
-                destinasiOptions.style.display = document.getElementById("destinasi").checked ? "block" : "none";
-            } else if (category === "kulineran") {
-                kulineranOptions.style.display = document.getElementById("kulineran").checked ? "block" : "none";
-            }
+        if (category === "destinasi") {
+            destinasiOptions.style.display = document.getElementById("destinasi").checked ? "block" : "none";
+        } else if (category === "kulineran") {
+            kulineranOptions.style.display = document.getElementById("kulineran").checked ? "block" : "none";
         }
+    }
 
-        function enableSeatSelection() {
-            const seatSelection = document.getElementById("seat-selection");
-            const caffeOption = document.getElementById("caffe-option");
+    function enableSeatSelection() {
+        const seatSelection = document.getElementById("seat-selection");
+        const caffeOption = document.getElementById("caffe-option");
 
-            seatSelection.style.display = caffeOption.checked ? "block" : "none";
-        }
+        seatSelection.style.display = caffeOption.checked ? "block" : "none";
+    }
 
-        function updateTotal() {
-    const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
-    let total = 0;
+    function updateTotal() {
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+        const jumlahPeserta = parseInt(document.getElementById("jumlah_peserta").value) || 1; // Default 1 peserta
+        let total = 0;
 
-    checkboxes.forEach(checkbox => {
-        console.log(`Checkbox Value: ${checkbox.value}`); // Debugging
-        total += parseInt(checkbox.value) || 0; // Pastikan nilai tidak NaN
-    });
+        checkboxes.forEach(checkbox => {
+            total += parseInt(checkbox.value) || 0; // Tambahkan nilai dari checkbox
+        });
 
-    console.log(`Total: ${total}`); // Debugging
-    const formattedTotal = `Rp.${total.toLocaleString('id-ID')}`;
-    console.log(`Formatted Total: ${formattedTotal}`); // Debugging
+        total *= jumlahPeserta; // Kalikan dengan jumlah peserta
+        const formattedTotal = `Rp.${total.toLocaleString('id-ID')}`;
+        document.getElementById("total_harga").value = formattedTotal;
+    }
 
-    document.getElementById("total_harga").value = formattedTotal;
-	
-}
+    function resetTotal() {
+        document.getElementById("total_harga").value = "Rp.0";
+    }
 
-    </script>
+    // Tambahkan event listener untuk input jumlah peserta
+    document.getElementById("jumlah_peserta").addEventListener("input", updateTotal);
+</script>
+
 </main>
 
 
