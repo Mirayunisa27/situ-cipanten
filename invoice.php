@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-<body>
-<main id="invoice" class="flex-shrink-0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invoice Pemesanan</title>
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -49,6 +48,17 @@
         button:hover {
             background-color: #0056b3;
         }
+        .btn-back {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn-back:hover {
+            background-color: #218838;
+        }
     </style>
 </head>
 <body>
@@ -75,9 +85,20 @@
 
     if ($result && $result->num_rows > 0) {
         $detail = $result->fetch_assoc();
+
+        // Validasi dan decode data JSON
+        $kategori = json_decode($detail['kategori'], true);
+        $destinasi = json_decode($detail['destinasi'], true);
+        $kulineran = json_decode($detail['kulineran'], true);
+
+        // Pastikan data JSON valid
+        $kategori = is_array($kategori) ? $kategori : [];
+        $destinasi = is_array($destinasi) ? $destinasi : [];
+        $kulineran = is_array($kulineran) ? $kulineran : [];
     ?>
     <div class="container container-invoice">
         <h2>Invoice Pemesanan #<?= htmlspecialchars($detail['id']); ?></h2>
+
         <label for="nama">Nama:</label>
         <p><?= htmlspecialchars($detail['nama_pemesanan']); ?></p>
 
@@ -88,23 +109,30 @@
         <p><?= htmlspecialchars($detail['tanggal_pemesanan']); ?></p>
 
         <label for="kategori">Kategori:</label>
-        <p><?= implode(', ', json_decode($detail['kategori'], true)); ?></p>
+        <ul>
+            <?php foreach ($kategori as $item): ?>
+                <li><?= htmlspecialchars($item); ?></li>
+            <?php endforeach; ?>
+        </ul>
 
         <label for="destinasi">Destinasi:</label>
-        <p><?= implode(', ', json_decode($detail['destinasi'], true)); ?></p>
+        <ul>
+            <?php foreach ($destinasi as $item): ?>
+                <li><?= htmlspecialchars($item); ?></li>
+            <?php endforeach; ?>
+        </ul>
 
         <label for="kulineran">Kulineran:</label>
-        <p><?= implode(', ', json_decode($detail['kulineran'], true)); ?></p>
+        <ul>
+            <?php foreach ($kulineran as $item): ?>
+                <li><?= htmlspecialchars($item); ?></li>
+            <?php endforeach; ?>
+        </ul>
 
-        <?php
-        // Contoh: Tampilkan hanya jika 'kategori' mengandung 'VIP' atau kondisi lain
-        if (!empty($detail['seat_number']) && in_array('VIP', json_decode($detail['kategori'], true))) {
-        ?>
+        <?php if (!empty($detail['seat_number'])): ?>
     <label for="seat_number">Nomor Kursi:</label>
     <p><?= htmlspecialchars($detail['seat_number']); ?></p>
-<?php
-}
-?>
+<?php endif; ?>
 
 
         <label for="jumlah_peserta">Jumlah Peserta:</label>
@@ -114,8 +142,7 @@
         <p>Rp. <?= number_format($detail['total_harga'], 0, ',', '.'); ?></p>
 
         <button onclick="window.print()">Cetak Invoice</button>
-        <a href='index.php' style='display:inline-block;padding:10px 20px;background-color:#28a745;color:white;text-decoration:none;border-radius:5px;'>Kembali ke Beranda</a>
-
+        <a href="index.php" class="btn-back">Kembali ke Beranda</a>
     </div>
     <?php
     } else {
@@ -125,8 +152,5 @@
     // Tutup koneksi
     $conn->close();
     ?>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
